@@ -101,4 +101,3 @@ if prises_possibles:
     print("Prises multiples possibles depuis la position (3, 2):", prises_possibles)
 else:
     print("Aucune prise multiple possible depuis la position (3, 2).")
-
