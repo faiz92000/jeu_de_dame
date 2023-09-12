@@ -25,9 +25,9 @@ def effectuer_mouvement(plateau, depart, arrivee):
     piece = plateau[x_dep][y_dep]
 
     # Vérifier si la case de départ est occupée par une pièce du joueur actif
-    if (piece == BLANC or piece == DAMES_BLANC) and x_dep > x_arr:
+    if (piece == BLANC or piece == DAME_BLANC) and x_dep > x_arr:
         return False  # Les pièces blanches se déplacent vers le haut
-    elif (piece == NOIR or piece == DAMES_NOIR) and x_dep < x_arr:
+    elif (piece == NOIR or piece == DAME_NOIR) and x_dep < x_arr:
         return False  # Les pièces noires se déplacent vers le bas
 
     # Calculer la distance de déplacement en lignes et en colonnes
